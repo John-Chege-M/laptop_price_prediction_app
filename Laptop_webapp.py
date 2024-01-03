@@ -3,12 +3,12 @@ import joblib
 import pandas 
 import numpy
 
-model = joblib.load("D:\MACHINE LEARNING PROJECTS\Laptop price prediction\laptop_price_prediction.pkl")
-st.header("Laptop Price Prediction App")
+model = joblib.load("laptop_price_prediction.pkl")
+st.header("Laptop Price Prediction App using ML")
 
 st.write("You want to buy a laptop?")
 st.write()
-st.write("Lets try to predict the cost in reference to specifications that you choose.")
+st.write("Lets predict the price in reference to specifications that you choose.")
 st.write()
 st.write()
 col1,col2 = st.columns(2)
